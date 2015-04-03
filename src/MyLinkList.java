@@ -15,16 +15,6 @@ class MyLinkList
     }
     
     
-    int count()
-    {
-	// traverse the nodes starting from the head and
-	// return the number of nodes in the linked list.
-	
-	// code not finished
-	
-	return -1;
-    }
-    
     Node append(int value)
     {
 	// append this node to the end of the linked list.
@@ -89,8 +79,27 @@ class MyLinkList
 	// traverse the nodes starting from the head and
 	// print each node's data.
 	
-	System.out.println("Display not coded yet");
+	throw new UnsupportedOperationException("display Not supported yet."); 
+    }
+    
+    int count()
+    {
+	// traverse the nodes starting from the head and
+	// return the number of nodes in the linked list.
+	
 	// code not finished
+	
+	throw new UnsupportedOperationException("count Not supported yet."); 
+    }
+    
+
+    int get(int n) 
+    {
+	// return the nth node in the list
+	// get(0) would return the data from the head node.
+	// get(1) would return the data from the next node after that
+	// and so on.
+	throw new UnsupportedOperationException("get Not supported yet."); 
     }
     
 }
