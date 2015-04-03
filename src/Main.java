@@ -44,11 +44,15 @@ public class Main {
 	
 	System.out.println("Total nodes = " + m.count());
 	
-	int value;
-	value = m.get(0);
-	System.out.printf("Get(0) returned %d\n",value);
-	value = m.get(1);
-	System.out.printf("Get(0) returned %d\n",value);
+	Node n;
+	
+	n = m.get(0);
+	if (n != null)
+	    System.out.printf("Get(0) returned %d\n",n.data);
+	
+	n = m.get(1);
+	if (n != null)
+	    System.out.printf("Get(1) returned %d\n",n.data);
 	
 	
 

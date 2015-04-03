@@ -93,12 +93,13 @@ class MyLinkList
     }
     
 
-    int get(int n) 
+    Node get(int n) 
     {
 	// return the nth node in the list
-	// get(0) would return the data from the head node.
-	// get(1) would return the data from the next node after that
-	// and so on.
+	// get(0) would return this.head
+	// get(1) would return the next node 
+	// get(2) would return the next node after that ....
+	// 
 	throw new UnsupportedOperationException("get Not supported yet."); 
     }
     
