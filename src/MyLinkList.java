@@ -6,18 +6,10 @@ class MyLinkList
     
     Node insert(int value)
     {
-	// inserts a new node at the top of the list.
-	
 	Node newnode = new Node(value);
-	// if there is already a head node, make
-	// our newnode's "next" equal to that one.
-	if (head != null)
-	{
-	    newnode.next = head;
-	}
-	// now make our newnode the head.
-	head = newnode;
-	return newnode;
+	
+	// code not finished
+	
     }
     
     
@@ -25,6 +17,9 @@ class MyLinkList
     {
 	// traverse the nodes starting from the head and
 	// return the number of nodes in the linked list.
+	
+	// code not finished
+	
 	return -1;
     }
     
@@ -61,14 +56,14 @@ class MyLinkList
 	// delete the node that matches this value.
 	// There are three cases
 	
-	// 1. the head node is the one that matches.
+	// Case 1. the head node is the one that matches.
 	if (this.head.data == value)
 	{
 	    this.head = this.head.next;
 	    return true;
 	}
 	
-	// 2. one of the later nodes matches
+	// Case 2. one of the later nodes matches
 	Node current = this.head;
 	Node prior = current;
 	while (current != null)
@@ -82,27 +77,18 @@ class MyLinkList
 	    prior = current;
 	    current = current.next;
 	}
-	// 3.  none of the nodes match
+	// Case 3.  none of the nodes match
 	return false;
 	    
-    }
-    
-    Node findTail()
-    {
-	Node current = this.head;
-	Node prior = current;
-	while (current != null)
-	{
-	    prior = current;
-	    current = current.next;
-	}
-	return prior;
     }
     
     void display()
     {
 	// traverse the nodes starting from the head and
 	// print each node's data.
+	
+	System.out.println("Display not coded yet");
+	// code not finished
     }
     
 }

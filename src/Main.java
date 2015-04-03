@@ -18,11 +18,33 @@ public class Main {
     {
 	// TODO code application logic here
 	MyLinkList m = new MyLinkList();
-	m.insert(1);
-	m.insert(2);
-	m.insert(3);
+	System.out.println("Append 1");
+	m.append(1);
+	m.display();	
 	
-	m.display();
+	System.out.println("Append 2");
+	m.append(2);
+	m.display();	
+	
+	System.out.println("Insert 3");
+	m.insert(3);
+	m.display();	
+	
+	System.out.println("Insert 4");
+	m.insert(4);
+	m.display();	
+	
+	System.out.println("Delete 1");
+	m.delete(1);
+	m.display();	
+
+	System.out.println("Delete 4");
+	m.delete(4);
+	m.display();	
+	
+	System.out.println("Total nodes = " + m.count());
+	
+
 	
     }
     
