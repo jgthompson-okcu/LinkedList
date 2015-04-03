@@ -10,6 +10,8 @@ class MyLinkList
 	
 	// code not finished
 	
+	return newnode;
+	
     }
     
     
